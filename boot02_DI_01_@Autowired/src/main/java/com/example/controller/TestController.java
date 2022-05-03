@@ -45,4 +45,14 @@ public class TestController {
 		return "gogo!";
 	}
 	
+	@GetMapping("/aaaaa")
+	public String hahah(){
+		return "hahah!";
+	}
+	
+	@GetMapping("/aaaaa")
+	public String bbbh(){
+		return "hb!";
+	}
+	
 }
