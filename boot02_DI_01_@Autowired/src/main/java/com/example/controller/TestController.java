@@ -79,4 +79,9 @@ public class TestController {
 	public String dddd(){
 		return "dddd!";
 	}
+	
+	@GetMapping("/eeee")
+	public String eeee(){
+		return "eeee!";
+	}
 }
