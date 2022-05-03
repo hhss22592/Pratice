@@ -55,4 +55,8 @@ public class TestController {
 		return "hb!";
 	}
 	
+	@GetMapping("/zzzz")
+	public String bbbhzz(){
+		return "hzzb!";
+	}
 }
