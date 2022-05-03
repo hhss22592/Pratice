@@ -59,4 +59,9 @@ public class TestController {
 	public String bbbhzz(){
 		return "hzzb!";
 	}
+	
+	@GetMapping("/aaa")
+	public String aaa(){
+		return "hzzb!";
+	}
 }
