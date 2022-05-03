@@ -29,4 +29,20 @@ public class TestController {
 	public String good(){
 		return "good!";
 	}
+	
+	@GetMapping("/ddd")
+	public String soGood(){
+		return "good!";
+	}
+	
+	@GetMapping("/fff")
+	public String yes(){
+		return "verygood!";
+	}
+	
+	@GetMapping("/eee")
+	public String gogo(){
+		return "gogo!";
+	}
+	
 }
