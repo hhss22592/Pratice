@@ -64,4 +64,9 @@ public class TestController {
 	public String aaa(){
 		return "hzzb!";
 	}
+	
+	@GetMapping("/bbb")
+	public String bbbb(){
+		return "bbb!";
+	}
 }
