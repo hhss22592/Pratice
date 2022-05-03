@@ -29,4 +29,9 @@ public class TestController {
 	public String good(){
 		return "good!";
 	}
+	
+	@GetMapping("/ddd")
+	public String soGood(){
+		return "good!";
+	}
 }
