@@ -24,4 +24,9 @@ public class TestController {
 		System.out.println("뭐지");
 		return tService.list();
 	}
+	
+	@GetMapping("/ccc")
+	public String good(){
+		return "good!";
+	}
 }
